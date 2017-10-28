@@ -1,11 +1,11 @@
 {
-  "name": "ionic-audio",
-  "version": "3.0.2",
+  "name": "ionic3-audio",
+  "version": "0.0.1",
   "description": "An audio player for Ionic 3 and Angular 4",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "scripts": {
-    "build": "node_modules/.bin/ngc && copyfiles -u 1 ./src/*.scss ./dist",
+    "build": "ngc && copyfiles -u 1 ./src/*.scss ./dist",
     "release": "npm run build && npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arielfaur/ionic-audio.git"
+    "url": "git+https://github.com/850176300/ionic3-audio.git"
   },
   "keywords": [
     "ionic",
